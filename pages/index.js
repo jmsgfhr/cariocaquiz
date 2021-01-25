@@ -31,7 +31,7 @@ export default function Home() {
         <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>{db.title}</h1>
+            <h1 style={{color:db.theme.colors.contrastTextDark}}>{db.title}</h1>
           </Widget.Header>
           <Widget.Content>
             <p>{db.description}</p>
