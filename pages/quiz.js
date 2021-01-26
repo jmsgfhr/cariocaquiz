@@ -9,13 +9,6 @@ import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import Form from '../src/components/Form';
 
-// const BackgroundImage = styled.div`
-//   background-image: url(${db.bg});
-//   flex: 1;
-//   background-size: cover;
-//   background-position: center;
-// `;
-
 export const QuizContainer = styled.div`
   width: 100%;
   max-width: 350px;
@@ -28,34 +21,18 @@ export const QuizContainer = styled.div`
 `;
 
 export default function Home() {
-  const router = useRouter();
-  const [name, setName] = React.useState('');
-
-  function SubmitHandler(infosDoEvento) {
-    infosDoEvento.preventDefault();
-    router.push(`/quiz?name=${name}`);
-  }
-
-  function OnChangeHandler(infosDoEvento) {
-    setName(infosDoEvento.target.value);
-  }
-
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
         <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>{db.title}</h1>
+            <h1>Pergunta x de x</h1>
           </Widget.Header>
           <Widget.Content>
             <p>{db.description}</p>
-            <Form onSubmit={SubmitHandler}>
-              <Form.Input
-                onChange={OnChangeHandler}
-                placeholder="Diz ai seu nome"
-              />
-              <Form.Button type="submit" disabled={name.length === 0}>
+            <Form>
+              <Form.Button type="submit">
                 Jogar
               </Form.Button>
             </Form>

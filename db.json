@@ -5,24 +5,86 @@
     "questions": [
         {
             "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-            "title": "Como fazer um seletor por id via CSS?",
+            "title": "Qual o bairro que Arlindo Cruz cita na sua música?",
             "description": "Essa é pra aquecer",
             "answer": 2,
             "alternatives": [
-                ".elemento",
-                "*elemento",
-                "#elemento",
-                "%elemento"
+                "Cascadura",
+                "Mangueira",
+                "Madureira",
+                "Jacarepaguá"
             ]
         },
         {
             "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-            "title": "Como fazer um background gradiente com css?",
-            "description": "Faz tempo em haha",
+            "title": "Complete a frase: \"É preço, é marca, é luxo, é ...\"",
+            "description": "",
+            "answer": 1,
+            "alternatives": [
+                "Raridade",
+                "Qualidade",
+                "Credibilidade",
+                "Praticidade"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+            "title": "Quais são as praias citadas pelo cantor Tim Maia?",
+            "description": "",
+            "answer": 2,
+            "alternatives": [
+                "Copacabana,Leme,Pontal,Flamengo",
+                "Leme,Calabouço,Urca,Ipanema",
+                "Calabouço,Praia Vermelha,Urca,Pontal",
+                "Botafogo,Pontal,Leme,Arpoador"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+            "title": "Quanto custa uma lata de refrigerante para um estrangeiro?",
+            "description": "",
+            "answer": 3,
+            "alternatives": [
+                "R$5,00",
+                "US$5,00",
+                "O mesmo valor",
+                "Pra gringo é mais caro!!"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+            "title": "A melhor batata do mundo?",
+            "description": "",
             "answer": 0,
             "alternatives": [
-                "background: linear-gradient(#e66465, #9198e5);",
-                "background: gradient(#e66465, #9198e5);"
+                "Batata de Marechal",
+                "Batata do BK",
+                "Batata do McDonald's",
+                "Batata do Saara"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+            "title": "Qual a melhor paisagem de Niterói?",
+            "description": "",
+            "answer": 3,
+            "alternatives": [
+                "Museu de Arte Contemporânea",
+                "Ilha da Boa Viagem",
+                "Caminho Niemeyer",
+                "Rio de Janeiro"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+            "title": "Qual o morro visitado pelo cantor Mochael Jackson?",
+            "description": "",
+            "answer": 1,
+            "alternatives": [
+                "Morro da Formiga",
+                "Morro Dona Marta",
+                "Morro do Cantagalo",
+                "Morro Santo Amaro"
             ]
         }
     ],
@@ -33,6 +95,7 @@
         "colors": {
             "primary": "#F2D091",
             "secondary": "#F25757",
+            "terciary":"#C94949",
             "mainBg": "#734652",
             "contrastText": "#FAFAFA",
             "contrastTextDark": "#333333",
